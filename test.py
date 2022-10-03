@@ -278,8 +278,7 @@ def ranking(wordsResult,candidateKeyphrases,pwCorp,singPlCorp):
     for f in finalSet:
       print(f)           
               
-class MGRank():
-  self.text
+def MGRank(text):
   candidateKeyphrases,candidateWords, singPlCorp = readStep(text)
   pwCorp = positionWeight(candidateWords)
   ranking(candidateWords,candidateKeyphrases,pwCorp,singPlCorp)
